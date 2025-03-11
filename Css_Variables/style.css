@@ -6,3 +6,17 @@
 .container{
     padding: 40px;
 }
+
+h1{
+    text-align: center;
+}
+
+.box{
+    --my-var: red;
+    padding: 20px;
+}
+
+.box h2{
+     margin-bottom: 20px;
+    background-color: var(--my-var);
+}
