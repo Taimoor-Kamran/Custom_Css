@@ -12,6 +12,13 @@
     --default-margin: 20px;
 }
 
+.dark{
+    --primary-text-color: #fff;
+    --secondary-text-color: #ddd;
+    --card-background-color: #333;
+    --background-color: #eee;
+}
+
 .container{
     min-height: 100vh;
     padding: 40px;
@@ -31,12 +38,13 @@ h1{
 }
 
 h2{
+    color: var(--primary-text-color);
     margin-bottom: var(--default-margin);
     background-color: var(--my-var);
 }
 
 p{
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
 }
 
 @media screen and (min-width: 800px) {
