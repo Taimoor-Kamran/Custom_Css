@@ -14,11 +14,17 @@ h1{
 }
 
 .box{
-    --my-var: red;
+    --my-var: yellow;
     padding: 20px;
 }
 
 .box h2{
      margin-bottom: 20px;
     background-color: var(--my-var);
+}
+
+@media screen and (min-width: 800px) {
+    .container{
+        --my-var: pink;
+    }
 }
