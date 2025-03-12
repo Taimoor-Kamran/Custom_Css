@@ -5,10 +5,12 @@
 }
 .container{
     padding: 40px;
+    --my-var: red;
 }
 
 h1{
     text-align: center;
+    background-color: var(--my-var);
 }
 
 .box{
